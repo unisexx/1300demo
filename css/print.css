@@ -1,0 +1,17 @@
+@media print { 
+.navbar, .clear, h3, #search {display:none;} 
+div.nextpage { position:absolute; right:10px; top:1170px; color:#000;}
+}
+
+@page {
+ margin: 1cm;
+ margin-bottom: 0.1cm 
+}
+
+@page :first {
+  margin-top: 0.1cm;    /* Top margin on first page 10cm */
+  margin-bottom: 0.1cm 
+  
+}
+
+
